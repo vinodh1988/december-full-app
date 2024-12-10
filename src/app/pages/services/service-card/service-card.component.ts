@@ -8,4 +8,6 @@ import { Service } from '../../../models/service';
 })
 export class ServiceCardComponent {
  @Input() service:Service = {category:"",description:"",hourlyprice:0,servicename:""}
+ @Input() cat:string=""
+ 
 }

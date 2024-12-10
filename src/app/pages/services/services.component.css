@@ -1,0 +1,26 @@
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .category-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  li {
+    float: left;
+    cursor: pointer;
+    color: rgb(77, 77, 80);
+    list-style-type: none;
+    margin: 20px;
+  }
+  .li:hover {
+    background-color: #e2e5e2;
+  }
+  

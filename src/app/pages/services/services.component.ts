@@ -9,6 +9,9 @@ import { AppService } from '../../services/app.service';
 })
 export class ServicesComponent {
  services:Service[]=[]
+ categories: string[] = ['Cloud', 'Hardware', 'Web', 'Mobile App', 'Digital Marketing', 'Database'];
+ current:string=""
+
 
  constructor(private as:AppService){
 
@@ -19,5 +22,9 @@ export class ServicesComponent {
     next: (data:Service[])=>this.services=data,
     error: (error)=>this.services=[]
   })
+ }
+
+ handleClick(category:string){
+   this.current=category
  }
 }

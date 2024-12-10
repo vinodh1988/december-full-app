@@ -13,6 +13,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceCardComponent } from './pages/services/service-card/service-card.component';
+import { CatformatPipe } from './pipes/catformat.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ServiceCardComponent } from './pages/services/service-card/service-card
     ContactComponent,
     ServicesComponent,
     ContactItemComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    CatformatPipe
   ],
   imports: [
     BrowserModule,

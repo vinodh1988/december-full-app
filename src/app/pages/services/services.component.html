@@ -1,1 +1,15 @@
-<app-service-card *ngFor="let x of services" [service]="x"></app-service-card>
+<div class="category-container">
+    <ul>
+    <li *ngFor="let category of categories" 
+    (click)="handleClick(category)" >
+      {{ category }}
+</li>
+</ul>
+</div>
+
+<app-service-card *ngFor="let x of services"
+ [service]="x"
+ [cat]="current"
+ ></app-service-card>
+
+  
