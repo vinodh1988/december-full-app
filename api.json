@@ -21,7 +21,159 @@
          "mobile": "9988776655",
          "imagename": "chennai.jpg"
      }
- ]
- 
+ ],
+ "services":[
+    {
+        "servicename": "AWS Cloud Hosting",
+        "category": "Cloud",
+        "description": "High availability and scalable cloud hosting on AWS.",
+        "hourlyprice": 35.00
+    },
+    {
+        "servicename": "Azure Cloud Services",
+        "category": "Cloud",
+        "description": "Comprehensive cloud services for applications and infrastructure on Azure.",
+        "hourlyprice": 40.00
+    },
+    {
+        "servicename": "GCP Cloud Solutions",
+        "category": "Cloud",
+        "description": "Flexible and reliable cloud solutions from Google Cloud Platform.",
+        "hourlyprice": 38.00
+    },
+    {
+        "servicename": "On-premise Server Setup",
+        "category": "Hardware",
+        "description": "Installation and configuration of on-premise servers.",
+        "hourlyprice": 50.00
+    },
+    {
+        "servicename": "Network Infrastructure",
+        "category": "Hardware",
+        "description": "Design and implementation of robust network infrastructure.",
+        "hourlyprice": 45.00
+    },
+    {
+        "servicename": "Computer Workstation Setup",
+        "category": "Hardware",
+        "description": "Setting up individual workstations with necessary software and hardware.",
+        "hourlyprice": 30.00
+    },
+    {
+        "servicename": "Responsive Web Design",
+        "category": "Web",
+        "description": "Creating responsive and user-friendly websites.",
+        "hourlyprice": 28.00
+    },
+    {
+        "servicename": "E-commerce Website Development",
+        "category": "Web",
+        "description": "Development of customized e-commerce websites.",
+        "hourlyprice": 32.00
+    },
+    {
+        "servicename": "SEO Optimization",
+        "category": "Web",
+        "description": "Improving website visibility through search engine optimization.",
+        "hourlyprice": 25.00
+    },
+    {
+        "servicename": "Mobile App Development",
+        "category": "Mobile App",
+        "description": "Designing and developing mobile applications for iOS and Android.",
+        "hourlyprice": 40.00
+    },
+    {
+        "servicename": "Cross-Platform App Development",
+        "category": "Mobile App",
+        "description": "Building apps that run seamlessly on multiple platforms.",
+        "hourlyprice": 42.00
+    },
+    {
+        "servicename": "App Store Optimization",
+        "category": "Mobile App",
+        "description": "Enhancing app visibility and ranking on app stores.",
+        "hourlyprice": 27.00
+    },
+    {
+        "servicename": "Social Media Marketing",
+        "category": "Digital Marketing",
+        "description": "Promoting brands and products on social media platforms.",
+        "hourlyprice": 22.00
+    },
+    {
+        "servicename": "Content Marketing",
+        "category": "Digital Marketing",
+        "description": "Creating and distributing valuable content to attract customers.",
+        "hourlyprice": 25.00
+    },
+    {
+        "servicename": "Email Marketing Campaigns",
+        "category": "Digital Marketing",
+        "description": "Designing and executing targeted email marketing campaigns.",
+        "hourlyprice": 20.00
+    },
+    {
+        "servicename": "Database Design",
+        "category": "Database",
+        "description": "Creating efficient database structures for optimal performance.",
+        "hourlyprice": 35.00
+    },
+    {
+        "servicename": "Database Management",
+        "category": "Database",
+        "description": "Ongoing maintenance and management of database systems.",
+        "hourlyprice": 30.00
+    },
+    {
+        "servicename": "Data Migration",
+        "category": "Database",
+        "description": "Safely migrating data between different database systems.",
+        "hourlyprice": 40.00
+    },
+    {
+        "servicename": "Cloud Security Solutions",
+        "category": "Cloud",
+        "description": "Implementing robust security measures for cloud environments.",
+        "hourlyprice": 45.00
+    },
+    {
+        "servicename": "Server Maintenance",
+        "category": "Hardware",
+        "description": "Regular maintenance and support for on-premise servers.",
+        "hourlyprice": 35.00
+    },
+    {
+        "servicename": "UI/UX Design",
+        "category": "Web",
+        "description": "Designing intuitive and engaging user interfaces and experiences.",
+        "hourlyprice": 28.00
+    },
+    {
+        "servicename": "Web Application Security",
+        "category": "Web",
+        "description": "Ensuring the security of web applications against threats.",
+        "hourlyprice": 38.00
+    },
+    {
+        "servicename": "Mobile App Testing",
+        "category": "Mobile App",
+        "description": "Comprehensive testing of mobile applications for performance and bugs.",
+        "hourlyprice": 30.00
+    },
+    {
+        "servicename": "Pay-Per-Click Advertising",
+        "category": "Digital Marketing",
+        "description": "Managing PPC campaigns to drive targeted traffic.",
+        "hourlyprice": 25.00
+    },
+    {
+        "servicename": "Database Backup Solutions",
+        "category": "Database",
+        "description": "Implementing reliable backup solutions for databases.",
+        "hourlyprice": 32.00
+    }
+]
+
  
  }

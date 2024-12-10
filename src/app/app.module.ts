@@ -12,6 +12,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ServiceCardComponent } from './pages/services/service-card/service-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ContactComponent,
     ServicesComponent,
-    ContactItemComponent
+    ContactItemComponent,
+    ServiceCardComponent
   ],
   imports: [
     BrowserModule,
