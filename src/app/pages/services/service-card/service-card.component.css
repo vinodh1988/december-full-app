@@ -1,7 +1,11 @@
 .service-card {
     margin: 1rem;
-    width: 300px;
+    width: 350px;
     float: left;
     margin: 20px;
+    height: 200px;
   }
   
+  mat-card-title {
+    color: rgb(4, 37, 129);
+  }
