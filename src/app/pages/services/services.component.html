@@ -6,8 +6,17 @@
 </li>
 </ul>
 </div>
+<div style="overflow: hidden">
+Filter By Price Range:
+<select [(ngModel)]="range">
+    <option>Low</option>
+    <option>Moderate</option>
+    <option>High</option>
+    <option>All</option>
+</select>
+</div>
 
-<app-service-card *ngFor="let x of services"
+<app-service-card *ngFor="let x of services | pricefilter:range"
  [service]="x"
  [cat]="current"
  ></app-service-card>

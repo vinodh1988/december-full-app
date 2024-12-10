@@ -14,6 +14,8 @@ import { ContactItemComponent } from './pages/contact/contact-item/contact-item.
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceCardComponent } from './pages/services/service-card/service-card.component';
 import { CatformatPipe } from './pipes/catformat.pipe';
+import { PricefilterPipe } from './pipes/pricefilter.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,13 +27,15 @@ import { CatformatPipe } from './pipes/catformat.pipe';
     ServicesComponent,
     ContactItemComponent,
     ServiceCardComponent,
-    CatformatPipe
+    CatformatPipe,
+    PricefilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideAnimationsAsync()

@@ -11,6 +11,7 @@ export class ServicesComponent {
  services:Service[]=[]
  categories: string[] = ['Cloud', 'Hardware', 'Web', 'Mobile App', 'Digital Marketing', 'Database'];
  current:string=""
+ range:string="All"
 
 
  constructor(private as:AppService){
