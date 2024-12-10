@@ -1,0 +1,27 @@
+{
+    "contacts": [
+     {
+         "address": "123 Banjara Hills",
+         "city": "Hyderabad",
+         "pincode": "500034",
+         "mobile": "9876543210",
+         "imagename": "hyderabad.jpg"
+     },
+     {
+         "address": "456 Marine Drive",
+         "city": "Mumbai",
+         "pincode": "400020",
+         "mobile": "9123456789",
+         "imagename": "mumbai.jpg"
+     },
+     {
+         "address": "789 T. Nagar",
+         "city": "Chennai",
+         "pincode": "600017",
+         "mobile": "9988776655",
+         "imagename": "chennai.jpg"
+     }
+ ]
+ 
+ 
+ }

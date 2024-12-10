@@ -10,6 +10,9 @@ li {
     float: left;
     color: whitesmoke;
 }
+li:hover{
+    color: rgb(116, 115, 115);
+}
 mat-toolbar{
     background-color: rgb(66, 65, 65);
     color: white;
