@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { DetailsComponent } from './pages/home/details/details.component';
+import { loadifGuard } from './gaurds/loadif.guard';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
@@ -12,7 +13,7 @@ const routes: Routes = [
   {path:"services",component: ServicesComponent},
   {path:"contact",component: ContactComponent} ,
   {path:"home/:id",component: DetailsComponent},
-  {path:"projects",
+  {path:"projects", canActivate: [loadifGuard],
     loadChildren:() => import('./projects/projects.module').then(m => m.ProjectsModule)}
 ];
 
