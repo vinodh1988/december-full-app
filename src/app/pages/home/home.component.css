@@ -6,3 +6,7 @@
     margin: 20px;
     color: rgb(20, 20, 81);
 }
+
+.services{
+    overflow: hidden;
+}
