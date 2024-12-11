@@ -16,4 +16,11 @@ li:hover{
 mat-toolbar{
     background-color: rgb(66, 65, 65);
     color: white;
+    position: relative;
+}
+
+.login{
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
