@@ -16,6 +16,8 @@ import { ServiceCardComponent } from './pages/services/service-card/service-card
 import { CatformatPipe } from './pipes/catformat.pipe';
 import { PricefilterPipe } from './pipes/pricefilter.pipe';
 import { FormsModule } from '@angular/forms';
+import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
+import { DetailsComponent } from './pages/home/details/details.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FormsModule } from '@angular/forms';
     ContactItemComponent,
     ServiceCardComponent,
     CatformatPipe,
-    PricefilterPipe
+    PricefilterPipe,
+    ServiceItemComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

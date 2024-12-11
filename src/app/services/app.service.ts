@@ -17,5 +17,15 @@ export class AppService {
   
   getServices():Observable<any> {
     return this.http.get("http://localhost:4500/services")
+ 
+  }
+   
+  getOfferings():Observable<any> {
+    return this.http.get("http://localhost:4500/offerings")
  }
+  
+ getDetails(id:number):Observable<object>{
+    
+  return this.http.get("http://localhost:4500/details/"+id);
+}
 }

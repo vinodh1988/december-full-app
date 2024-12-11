@@ -19,6 +19,7 @@ export class CommonService {
     ( map(() => 
       { 
         const randomIndex = Math.floor(Math.random() * this.adwords.length);
+         
          return this.adwords[randomIndex]; 
       }) );
   }
