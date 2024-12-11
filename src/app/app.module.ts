@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
 import { DetailsComponent } from './pages/home/details/details.component';
 import { FormComponent } from './pages/home/form/form.component';
+import { ProjectsModule } from './projects/projects.module';
 
 @NgModule({
   declarations: [

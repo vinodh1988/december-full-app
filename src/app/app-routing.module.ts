@@ -11,7 +11,9 @@ const routes: Routes = [
   {path:"about",component: AboutComponent},
   {path:"services",component: ServicesComponent},
   {path:"contact",component: ContactComponent} ,
-  {path:"home/:id",component: DetailsComponent}
+  {path:"home/:id",component: DetailsComponent},
+  {path:"projects",
+    loadChildren:() => import('./projects/projects.module').then(m => m.ProjectsModule)}
 ];
 
 @NgModule({
