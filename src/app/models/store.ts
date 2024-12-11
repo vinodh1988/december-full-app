@@ -1,0 +1,1 @@
+export const myStore:string =" This is store data"
